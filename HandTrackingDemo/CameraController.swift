@@ -315,7 +315,7 @@ extension CameraController: AVCaptureVideoDataOutputSampleBufferDelegate {
     func processPoints(_ points: [CGPoint?]) {
         
         // Convert points from AVFoundation coordinates to UIKit coordinates.
-//         = cameraView.previewLayer
+        
         var pointsConverted: [CGPoint] = []
         for point in points {
             //pointsConverted.append(m_previewLayer.layerPointConverted(fromCaptureDevicePoint: point!))
